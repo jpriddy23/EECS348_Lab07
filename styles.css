@@ -1,36 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-}
-
-header {
-    background-color: #2e7382;
-    color: #fff;
     text-align: center;
-    padding: 20px;
 }
 
-.profile-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#control-container {
     margin: 20px;
 }
 
-.profile-image img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}
-
-.profile-info {
-    margin-left: 20px;
-}
-
-.link, .video {
-    margin: 20px;
+#myparagraph {
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 2px solid #2e7382;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+#color-input, #border-input {
+    margin: 10px;
 }
