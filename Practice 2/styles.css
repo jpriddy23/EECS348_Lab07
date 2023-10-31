@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#control-container {
+    margin: 20px;
+}
+
+#myparagraph {
+    padding: 20px;
+    border: 2px solid #2e7382;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+#color-input, #border-input {
+    margin: 10px;
+}
